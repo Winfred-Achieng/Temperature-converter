@@ -22,7 +22,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         Text tempLbl=new Text("Enter temperature");
         Text resLbl=new Text("Result");
-        Text convLbl=new Text("Convert to");
+        Text convLbl=new Text("Converts to");
 
         TextField tempTf=new TextField();
         TextField resTf=new TextField();
